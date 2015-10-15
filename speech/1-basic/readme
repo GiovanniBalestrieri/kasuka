@@ -1,0 +1,5 @@
+Requisites: 
+
+	sudo apt-get install gstreamer0.10-pocketsphinx python-gst0.10 gstreamer0.10-gconf
+
+
