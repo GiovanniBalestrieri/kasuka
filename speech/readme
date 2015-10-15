@@ -1,0 +1,10 @@
+Record wav file using Linux:
+
+	sudo apt-get install  --yes sox alsa-utils lame 
+
+	rec -r 8000 -c 1 hello.wav
+
+To play the recorded wav:
+
+	cvlc hello.wav
+
