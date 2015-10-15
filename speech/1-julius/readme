@@ -1,0 +1,17 @@
+Prerequisites:
+
+	sudo apt-get install julius pulseaudio-utils osspd-alsa
+
+	sudo alsa force-reload
+
+	wget https://bootstrap.pypa.io/ez_setup.py
+	sudo python ez_setup.py
+
+	wget https://pypi.python.org/packages/source/p/pyjulius/pyjulius-0.3.tar.gz
+	tar xvf pyjulius-0.3.tar.gz
+	cd pyjulius-0.3
+	sudo python setup.py install
+
+	wget http://www.repository.voxforge1.org/downloads/software/julius-3.5.2-quickstart-linux.tgz
+
+	
