@@ -2,15 +2,15 @@
 import sys
 
 try:
-import pocketsphinx
+	import pocketsphinx
 except:
-import pocketsphinx
+	import pocketsphinx
 
 # the hmdir,lmdirn and dictd variables hold the path of HMM,LM,dictionary of pocketsphinx
 if __name__ == "__main__":
-hmdir = "/usr/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k"
-lmdir = "/usr/share/pocketsphinx/model/lm/en_US/hub4.5000.DMP"
-dictd = "/usr/share/pocketsphinx/model/lm/en_US/cmu07a.dic"a
+	hmdir = "/usr/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k"
+	lmdir = "/usr/share/pocketsphinx/model/lm/en_US/hub4.5000.DMP"
+	dictd = "/usr/share/pocketsphinx/model/lm/en_US/cmu07a.dic"	
 
 #Receiving wave file name from command line argument
 wavfile = sys.argv[1]
