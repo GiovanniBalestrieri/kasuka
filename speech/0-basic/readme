@@ -8,3 +8,9 @@ To play the recorded wav:
 
 	cvlc hello.wav
 
+To run the speechToText python script:
+
+	python sphinx.py hello.wav
+
+That's a poor result...
+Let's improve the accuracy
