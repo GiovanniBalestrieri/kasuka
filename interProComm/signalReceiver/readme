@@ -1,0 +1,8 @@
+run 
+python receiveSign.py
+
+open another terminal to send signal to it:
+
+kill -USR1 $pidDislayed
+kill -USR2
+kill -9 to kill it
