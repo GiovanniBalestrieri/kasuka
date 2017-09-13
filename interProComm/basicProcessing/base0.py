@@ -26,12 +26,10 @@ def printInfo(name):
 if __name__ == '__main__':
     start = time.time()
     print("Yo I'm the father! My pid: " + str(os.getpid()))
-    p1 = Process(target=f, args=('bob',))
-    p2 = Process(target=g, args=('john',))
-    p1.start()
-    p2.start()
-    p1.join()
-    p2.join()
+    
+    f('bob')
+    g('john')
+
     totTime = time.time() - start
     print("total time: " + str(totTime))
 
